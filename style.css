@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background-color: #1f2632;
+}
+
+* {
+  font-family: 'Manrope', serif;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-text {
+  background-color: #323a49;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto 4vw;
+  width: 32%;
+  border-radius: 12px;
+  padding: 3vh 3vw;
+  height: auto;
+}
+
+.container-text span {
+  color: #52ffa8;
+  letter-spacing: 3px;
+}
+
+.container-text span small {
+  font-size: 12px;
+}
+
+.container-text p {
+  color: #cee3e9;
+  text-align: center;
+}
+
+.container-text .container-decoration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 3vh;
+}
+
+.container-text .container-decoration div {
+  width: 10px;
+  height: 15px;
+  margin: 0 3px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.container-text .container-decoration hr {
+  opacity: 0.2;
+  margin: auto 0.8vw;
+  width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .container-text {
+    width: auto;
+  }
+}
+
+.container-btn {
+  position: relative;
+  top: 6vh;
+}
+
+.container-btn button {
+  border: 0 none;
+  background-color: #52ffa8;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.container-btn button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 20px 4px #52ffa8;
+          box-shadow: 0px 0px 20px 4px #52ffa8;
+}
+
+.container-btn button img {
+  padding: 15px 13px;
+}
+
+.attribution {
+  font-size: 12px;
+}
+
+.attribution a {
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
